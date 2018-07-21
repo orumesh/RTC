@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="js/adapter-latest.js"> </script>
+    <script src="js/common.js"> </script>
+    <script src="js/main.js"> </script>
+    <script src="js/ga.js"> </script>
+</head>
+<body>
+    <div id="container">
+
+        <div class="highlight">
+            <p>Realtime communication with WebRTC</p>
+        </div>
+
+       
+
+        <video id="gum-local" autoplay playsinline></video>
+
+        <div id="errorMsg"></div>
+
+        <p class="warning"><strong>Warning:</strong> if you're not using headphones, pressing play will cause feedback.</p>
+
+        <p>Display the video stream from <code>getUserMedia()</code> in a video element.</p>
+
+        <p>The <code>MediaStream</code> object <code>stream</code> passed to the <code>getUserMedia()</code> callback is in global scope, so you can inspect it from the console.</p>
+
+     
+    </div>
+</body>
+</html>
